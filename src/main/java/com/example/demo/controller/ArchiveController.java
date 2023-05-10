@@ -18,8 +18,8 @@ public class ArchiveController {
 	private ArchiveMapper mapper;
 	
 	// 게시물 목록
-	//경로 : http://localhost:8080
-	//경로 : http://localhost:8080/list
+	//경로 : http://localhost:8081
+	//경로 : http://localhost:8081/list
 	//@RequestMapping(value = {"/", "list"}, method = RequestMethod.GET)
 	@GetMapping({"/", "list"})
 	public String list(Model model) {
